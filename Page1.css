@@ -1,0 +1,83 @@
+body {
+    font-family: Arial;
+    background-color: orangered;
+}
+#list img{
+    height: 50px;
+    width: 150px;
+    position: absolute;
+}
+#main {
+    background-color: white;
+}
+a {
+    color: blue;
+    text-decoration: none;
+    padding: 6px;
+}
+a:hover {
+    background-color: yellow;
+}
+#list{
+    background-color: white;
+    padding: 10px;
+}
+#list ul{
+    text-align: right;
+    list-style-type: none;
+    margin-right: 20px;
+}
+#list li{
+    display: inline-block;
+    margin-left: 30px;
+}
+.sub {
+    flex: 2;
+    order: 1;
+}
+.text {
+    flex: 1;
+    order: 2;
+}
+.part-1 {
+    display: flex;
+}
+.sub img{
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    padding: 20px;
+}
+p{
+    color: red;
+    padding: 20px;
+}
+h1{
+    color: red;
+    padding: 20px;
+}
+.section-1{
+    flex: 1;
+    order: 1;
+}
+.section-2{
+    flex: 1;
+    order: 2;
+}
+.part-2{
+    display: flex;
+}
+.section-1 img{
+    height: 40%;
+    width: 80%;
+    padding: 10px;
+}
+.section-2 img{
+    height: 40%;
+    width: 80%;
+    padding: 10px;
+}
+h2{
+    color: red;
+    padding: 20px;
+}
